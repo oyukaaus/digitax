@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "accordionId": "headingOne",
+        "title": "Strategy",
+        "subtitle": "Зээлийн санхүүгийн материал бүрдүүлэлт",
+        "collapseId": "collapseOne",
+        "expanded": true,
+        "image": "5.jpg"
+    },
+    {
+        "id": 2,
+        "accordionId": "headingTwo",
+        "title": "Partnership",
+        "subtitle": "Тендерийн санхүүгийн материал бүрдүүлэлт",
+        "collapseId": "collapseTwo",
+        "expanded": false,
+        "image": "6.jpg"
+    },
+    {
+        "id": 3,
+        "accordionId": "headingThree",
+        "title": "Branding",
+        "subtitle": "НДШ тайлан",
+        "collapseId": "collapseThree",
+        "expanded": false,
+        "image": "7.jpg"
+    }
+]
