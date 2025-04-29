@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "date": "12 August, 2024",
+        "date": "12, Дөрөвдүгээр сар, 2025",
         "dateIcon": "far fa-calendar-alt",
         "author": "john Baus",
         "authorIcon": "far fa-user-circle",
         "tag": "Loan",
-        "title": "Announcing if attachment resolution sentiments.",
-        "text": "Bndulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
+        "title": "'DiGiTAX' — Татварын орчны шинэ эхлэл",
+        "text": "Санхүү, татвар, технологийн туршлагатай чадварлаг мэргэжилтнүүдийн хэрэгжүүлж буй Дижитакс төсөл албан ёсоор эхэлж байна. Тус  төсөл нь татварын ойлголт, шийдлийг хялбаршуулж, хүртээмжтэй болгох зорилготой юм. ",
         "btnText": "Read More",
         "btnIcon": "fas fa-angle-right",
         "thumbFull": "1-full.jpg",
         "thumb": "1.jpg",
         "animationDelay": "300ms"
     },
-    {
+    { 
         "id": 2,
         "date": "13 August, 2024",
         "dateIcon": "far fa-calendar-alt",
@@ -32,7 +32,11 @@
     {
         "id": 3,
         "date": "14 August, 2024",
-        "dateIcon": "far fa-calendar-alt",
+        "dateIcon": "far fa-calendar-alt",      
+
+
+
+        
         "author": "john Baus",
         "authorIcon": "far fa-user-circle",
         "tag": "Loan",

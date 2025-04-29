@@ -6,13 +6,14 @@ interface DataType {
     accordionId?: string;
     title?: string;
     subtitle?: string;
+    link?: string;
     collapseId?: string;
     expanded?: boolean;
     image?: string;
 }
 
 const SingleProjectV1 = ({ project }: { project: DataType }) => {
-    const { id, accordionId, title, subtitle, collapseId, expanded, image } = project;
+    const { id, accordionId, title, subtitle, collapseId, expanded, image, link } = project;
 
     return (
         <>
@@ -39,7 +40,7 @@ const SingleProjectV1 = ({ project }: { project: DataType }) => {
                     <div className="accordion-body">
                         <div className="portfolio-style-one-thumb">
                             <Image src={`/assets/img/portfolio/${image}`} alt="Image Not Found" width={582} height={320} />
-                            <Link href={`/project-details/${id}`}>
+                            <Link href={`${link}`}>
                                 <i className="fas fa-link" />
                             </Link>
                         </div>

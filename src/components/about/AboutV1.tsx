@@ -5,20 +5,17 @@ import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import about1 from "@/assets/img/about/1.jpg";
 import icon4 from "@/assets/img/icon/4.png";
-
 interface DataType {
   sectionClass?: string;
 }
 
 const AboutV1 = ({ sectionClass }: DataType) => {
   const [isOpen, setOpen] = useState(false);
-
   return (
     <>
       <div
-        className={`about-style-one-area default-padding-top ${
-          sectionClass ? sectionClass : ""
-        }`}
+        className={`about-style-one-area default-padding-top ${sectionClass ? sectionClass : ""
+          }`}
       >
         <div className="container">
           <div className="about-style-one-items">
@@ -29,9 +26,10 @@ const AboutV1 = ({ sectionClass }: DataType) => {
                   <ModalVideo
                     channel="youtube"
                     isOpen={isOpen}
-                    videoId="aTC_RNYtEb0"
+                    videoId="8LPKKWgthvU"
                     onClose={() => setOpen(false)}
                   />
+
                   <Link
                     onClick={() => setOpen(true)}
                     href="#"
@@ -57,8 +55,8 @@ const AboutV1 = ({ sectionClass }: DataType) => {
                     <li>
                       <Image src={icon4} alt="Image Not Found" />
                       <h5>
-                        <a href="https://taxtime.mn">
-                          Зөвлөх үйлчилгээний компани
+                        <a href="/about-us">
+                          Бидний тухай
                         </a>
                       </h5>
                     </li>

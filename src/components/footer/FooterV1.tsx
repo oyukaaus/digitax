@@ -1,5 +1,4 @@
 import Link from "next/link";
-import FooterNewsLetter from "../form/FooterNewsLetter";
 
 const FooterV1 = () => {
   return (
@@ -55,9 +54,17 @@ const FooterV1 = () => {
               <div className="col-lg-4 col-md-6 footer-item">
                 <div className="f-item newsletter">
                   <p>
-                    Имэйлээр мэдээ, мэдээлэл <br /> цаг хугацаанд нь авах
+                    Бүртгүүлэх бол
                   </p>
-                  <FooterNewsLetter />
+                  <div className="form-group full-width submit">
+                    <Link href="https://www.digitax.mn/app/#/signup" passHref>
+                      <button className="btn btn-theme effect">
+                        Бүртгүүлэх
+                      </button>
+                    </Link>
+
+
+                  </div>
                 </div>
               </div>
             </div>
