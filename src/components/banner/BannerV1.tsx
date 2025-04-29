@@ -53,12 +53,12 @@ const BannerV1 = () => {
                       duration="400ms"
                     >
                       <div className="button mt-40">
-                        <Link
-                          className="btn btn-md circle btn-gradient animation"
-                          href="/contact-us"
-                        >
-                          Эхлэх
+                        <Link href="https://www.digitax.mn/app" >
+                          <button className="btn btn-theme effect">
+                            Нэвтрэх
+                          </button>
                         </Link>
+
                       </div>
                     </Animate>
                   </div>

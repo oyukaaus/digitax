@@ -1,6 +1,5 @@
 import AboutV1 from "@/components/about/AboutV1";
 import BannerV1 from "@/components/banner/BannerV1";
-import FactV1 from "@/components/fact/FactV1";
 import FeatureV1 from "@/components/feature/FeatureV1";
 import LayoutV1 from "@/components/layouts/LayoutV1";
 import PriceV1 from "@/components/price/PriceV1";
@@ -24,7 +23,7 @@ const Home1 = () => {
         <ServicesV1 />
         <WhyChooseV1 />
         <ProjectV1 />
-        <FactV1 />
+        {/* <FactV1 /> */}
         <div className="mb-4"></div>
         <PriceV1 />
       </LayoutV1>
