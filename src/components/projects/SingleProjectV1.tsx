@@ -13,7 +13,7 @@ interface DataType {
 }
 
 const SingleProjectV1 = ({ project }: { project: DataType }) => {
-    const { id, accordionId, title, subtitle, collapseId, expanded, image, link } = project;
+    const {  accordionId, title, subtitle, collapseId, expanded, image, link } = project;
 
     return (
         <>

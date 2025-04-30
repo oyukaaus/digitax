@@ -1,5 +1,5 @@
 import FaqV1 from '@/components/faq/FaqV1';
-import LayoutV5 from '@/components/layouts/LayoutV5';
+import LayoutV1 from '@/components/layouts/LayoutV1';
 
 export const metadata = {
     title: "Digitax - Санхүү татварын тайлан бэлдэх үйлчилгээ- Faq"
@@ -8,9 +8,9 @@ export const metadata = {
 const FaqPage = () => {
     return (
         <>
-            <LayoutV5>
+            <LayoutV1>
                 <FaqV1 />
-            </LayoutV5>
+            </LayoutV1>
         </>
     );
 };

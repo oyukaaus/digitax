@@ -1,5 +1,5 @@
 import ContactUsV1 from '@/components/contact/ContactUsV1';
-import LayoutV5 from '@/components/layouts/LayoutV5';
+import LayoutV1 from '@/components/layouts/LayoutV1';
 import MapV1 from '@/components/map/MapV1';
 
 export const metadata = {
@@ -9,10 +9,10 @@ export const metadata = {
 const ContactUsPage = () => {
     return (
         <>
-            <LayoutV5>
+            <LayoutV1>
                 <ContactUsV1 />
                 <MapV1 />
-            </LayoutV5>
+            </LayoutV1>
         </>
     );
 };

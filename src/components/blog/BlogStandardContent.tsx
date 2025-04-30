@@ -1,14 +1,12 @@
 "use client"
 import SingleBlogStandard from './SingleBlogStandard';
 import BlogData from '@/assets/jsonData/blog/BlogData.json';
-import { useRouter, useSearchParams } from 'next/navigation';
+import {  useSearchParams } from 'next/navigation';
 import { useEffect, useState } from "react";
-import Pagination from 'react-paginate';
 
 const BlogStandardContent = () => {
 
     // Pagination 
-    const router = useRouter();
     const searchParams = useSearchParams();
 
     // Get page from URL query
@@ -23,19 +21,6 @@ const BlogStandardContent = () => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     const currentBlogData = BlogData.slice(startIndex, endIndex);
-
-    const handlePageClick = (data: any) => {
-        const selectedPage = data.selected + 1;
-        setCurrentPage(selectedPage);
-        router.push(`/blog-standard?page=${selectedPage}`);
-
-        setTimeout(() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }, 200);
-    };
-
-    const totalPages = Math.ceil(BlogData.length / itemsPerPage);
-
     return (
         <>
             <div className="blog-area full-blog blog-standard default-padding-bottom">

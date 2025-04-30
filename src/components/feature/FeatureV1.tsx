@@ -1,6 +1,5 @@
 import SingleFeatureV1 from "./SingleFeatureV1";
 import FeatureV1Data from "@/assets/jsonData/feature/FeatureV1Data.json";
-import Counter from "../counter/Counter";
 
 const FeatureV1 = () => {
   const serviceList = [

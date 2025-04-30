@@ -8,7 +8,7 @@ const FaqV1 = () => {
                 <div className="container">
                     <div className="faq-style-two-items chooseus-style-two-items bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/2.jpg)' }}>
                         <div className="row">
-                            <div className="col-xl-6 pr-50 pr-md-15 pr-xs-15">
+                            {/* <div className="col-xl-6 pr-50 pr-md-15 pr-xs-15">
                                 <div className="fun-fact-style-info">
                                     <h2 className="title">Whatever plan we got you covered</h2>
                                     <div className="fun-fact-card-two mt-40">
@@ -17,13 +17,26 @@ const FaqV1 = () => {
                                             <div className="counter">
                                                 <div className="timer"><Counter end={56} /></div>
                                                 <div className="operator">K</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                                
                                             </div>
                                         </div>
                                         <span className="medium">Clients around the world</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-xl-6">
+                            </div> */}
+                            <div className="col-xl-12">
                                 <div className="choose-us-style-two">
                                     <div className="accordion" id="faqAccordion">
                                         <div className="accordion-item accordion-style-one">

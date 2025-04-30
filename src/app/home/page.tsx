@@ -11,7 +11,7 @@ export const metadata = {
   title: "Digitax - Санхүү татварын тайлан бэлдэх үйлчилгээ - NextJS Template",
 };
 
-const Home1 = () => {
+const Home = () => {
   return (
     <>
       <LayoutV1>
@@ -31,4 +31,4 @@ const Home1 = () => {
   );
 };
 
-export default Home1;
+export default Home;

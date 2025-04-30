@@ -1,6 +1,6 @@
 import BlogStandardContent from '@/components/blog/BlogStandardContent';
 import BodyClassV2 from '@/components/classes/BodyClassV2';
-import LayoutV5 from '@/components/layouts/LayoutV5';
+import LayoutV1 from '@/components/layouts/LayoutV1';
 
 export const metadata = {
     title: "Digitax - Татварын зөвлөх үйлчилгээ"
@@ -9,10 +9,10 @@ export const metadata = {
 const BlogStandard = () => {
     return (
         <>
-            <LayoutV5 breadCrumb="мэдээ мэдээлэл" title="Мэдээ мэдээлэл">
+            <LayoutV1 >
                 <BlogStandardContent />
                 <BodyClassV2 />
-            </LayoutV5>
+            </LayoutV1>
         </>
     );
 };

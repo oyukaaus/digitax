@@ -1,6 +1,3 @@
-import ChooseProgress1Data from "@/assets/jsonData/choose/ChooseProgress1Data.json";
-import SingleChooseProgressV1 from "@/components/whyChoose/SingleChooseProgressV1";
-import ProcessV1 from "../process/ProcessV1";
 
 const WhyChooseV1 = () => {
   return (
