@@ -53,17 +53,13 @@ const FooterV1 = () => {
 
               <div className="col-lg-4 col-md-6 footer-item">
                 <div className="f-item newsletter">
-                  <p>
-                    Бүртгүүлэх бол
-                  </p>
+                  <p>Бүртгүүлэх бол</p>
                   <div className="form-group full-width submit">
                     <Link href="https://www.digitax.mn/app/#/signup" passHref>
                       <button className="btn btn-theme effect">
                         Бүртгүүлэх
                       </button>
                     </Link>
-
-
                   </div>
                 </div>
               </div>

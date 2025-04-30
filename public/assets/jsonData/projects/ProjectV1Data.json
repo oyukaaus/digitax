@@ -7,7 +7,7 @@
     "collapseId": "collapseOne",
     "expanded": true,
     "image": "5.jpg",
-    "link":"/about-us"
+    "link": "/about-us"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "collapseId": "collapseTwo",
     "expanded": false,
     "image": "6.jpeg",
-    "link":"/news"
+    "link": "/news"
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@
     "collapseId": "collapseThree",
     "expanded": false,
     "image": "7.jpg",
-    "link":"/faq"
+    "link": "/faq"
   }
 ]

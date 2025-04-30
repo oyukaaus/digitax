@@ -53,12 +53,11 @@ const BannerV1 = () => {
                       duration="400ms"
                     >
                       <div className="button mt-40">
-                        <Link href="https://www.digitax.mn/app" >
+                        <Link href="https://www.digitax.mn/app">
                           <button className="btn btn-theme effect">
                             Нэвтрэх
                           </button>
                         </Link>
-
                       </div>
                     </Animate>
                   </div>
@@ -75,9 +74,10 @@ const BannerV1 = () => {
                     </Animate>
 
                     <div className="strategy absolute top-0 left-0 flex flex-col gap-6 p-6">
-
-
-                      <Animate className="animate__animated animate__fadeInRight" delay="700ms">
+                      <Animate
+                        className="animate__animated animate__fadeInRight"
+                        delay="700ms"
+                      >
                         <div className="item flex items-center gap-3">
                           <div className="icon">
                             <i className="fas fa-rocket" />
@@ -89,7 +89,10 @@ const BannerV1 = () => {
                           </div>
                         </div>
                       </Animate>
-                      <Animate className="animate__animated animate__fadeInUp " delay="500ms">
+                      <Animate
+                        className="animate__animated animate__fadeInUp "
+                        delay="500ms"
+                      >
                         <div className="item flex items-center gap-3">
                           <div className="icon">
                             <i className="fas fa-chart-pie" />
@@ -102,8 +105,10 @@ const BannerV1 = () => {
                         </div>
                       </Animate>
 
-
-                      <Animate className="animate__animated animate__fadeInLeft" delay="300ms">
+                      <Animate
+                        className="animate__animated animate__fadeInLeft"
+                        delay="300ms"
+                      >
                         <div className="item flex items-center gap-3">
                           <div className="icon">
                             <i className="fas fa-rocket" />
@@ -117,9 +122,7 @@ const BannerV1 = () => {
                       </Animate>
                     </div>
                   </div>
-
                 </div>
-
               </div>
             </div>
           </div>

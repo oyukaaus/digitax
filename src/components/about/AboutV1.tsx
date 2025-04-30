@@ -14,8 +14,9 @@ const AboutV1 = ({ sectionClass }: DataType) => {
   return (
     <>
       <div
-        className={`about-style-one-area default-padding-top ${sectionClass ? sectionClass : ""
-          }`}
+        className={`about-style-one-area default-padding-top ${
+          sectionClass ? sectionClass : ""
+        }`}
       >
         <div className="container">
           <div className="about-style-one-items">
@@ -55,9 +56,7 @@ const AboutV1 = ({ sectionClass }: DataType) => {
                     <li>
                       <Image src={icon4} alt="Image Not Found" />
                       <h5>
-                        <a href="/about-us">
-                          Бидний тухай
-                        </a>
+                        <a href="/about-us">Бидний тухай</a>
                       </h5>
                     </li>
                     {/* <li>
