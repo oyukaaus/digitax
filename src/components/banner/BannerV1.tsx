@@ -53,18 +53,17 @@ const BannerV1 = () => {
                       duration="400ms"
                     >
                       <div className="button mt-40">
-                        <Link
-                          className="btn btn-md circle btn-gradient animation"
-                          href="/contact-us"
-                        >
-                          Эхлэх
+                        <Link href="https://www.digitax.mn/app">
+                          <button className="btn btn-theme effect">
+                            Нэвтрэх
+                          </button>
                         </Link>
                       </div>
                     </Animate>
                   </div>
                 </div>
                 <div className="banner-one-thumb col-xl-6 col-lg-5 pl-60 pl-md-15 pl-xs-15">
-                  <div className="thumb">
+                  <div className="thumb relative">
                     <Animate className="animate__animated animate__fadeInUp">
                       <Image
                         src="/assets/img/thumb/1.png"
@@ -73,28 +72,13 @@ const BannerV1 = () => {
                         height={1142}
                       />
                     </Animate>
-                    <div className="strategy">
-                      <Animate
-                        className="animate__animated animate__fadeInLeft"
-                        delay="800ms"
-                      >
-                        <div className="item">
-                          <div className="icon">
-                            <i className="fas fa-chart-pie" />
-                          </div>
-                          <div className="info">
-                            <p>
-                              <strong>Бизнесийн өсөлтийг дэмжинэ</strong>
-                            </p>
-                          </div>
-                        </div>
-                      </Animate>
 
+                    <div className="strategy absolute top-0 left-0 flex flex-col gap-6 p-6">
                       <Animate
                         className="animate__animated animate__fadeInRight"
                         delay="700ms"
                       >
-                        <div className="item">
+                        <div className="item flex items-center gap-3">
                           <div className="icon">
                             <i className="fas fa-rocket" />
                           </div>
@@ -106,16 +90,32 @@ const BannerV1 = () => {
                         </div>
                       </Animate>
                       <Animate
-                        className="animate__animated animate__fadeInUp mt-20"
+                        className="animate__animated animate__fadeInUp "
                         delay="500ms"
                       >
-                        <div className="item">
+                        <div className="item flex items-center gap-3">
+                          <div className="icon">
+                            <i className="fas fa-chart-pie" />
+                          </div>
+                          <div className="info">
+                            <p>
+                              <strong>Эрсдлээс сэргийлнэ</strong>
+                            </p>
+                          </div>
+                        </div>
+                      </Animate>
+
+                      <Animate
+                        className="animate__animated animate__fadeInLeft"
+                        delay="300ms"
+                      >
+                        <div className="item flex items-center gap-3">
                           <div className="icon">
                             <i className="fas fa-rocket" />
                           </div>
                           <div className="info">
                             <p>
-                              <strong>Эрсдлээс сэргийлнэ</strong>
+                              <strong>Бизнесийн өсөлтийг дэмжинэ</strong>
                             </p>
                           </div>
                         </div>

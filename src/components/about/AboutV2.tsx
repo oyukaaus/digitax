@@ -1,14 +1,9 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
-import React, { useState } from "react";
-import thumb2 from "@/assets/img/thumb/2.jpg";
+import React from "react";
 import thumb5 from "@/assets/img/thumb/5.jpg";
-import ModalVideo from "react-modal-video";
 
 const AboutV2 = () => {
-  const [isOpen, setOpen] = useState(false);
-
   return (
     <>
       <div className="about-style-two-area default-padding">

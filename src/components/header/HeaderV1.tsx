@@ -34,7 +34,9 @@ const HeaderV1 = () => {
                             <div className="attr-nav">
                                 <ul>
                                     <li className="button">
-                                        <Link href="/contact-us">Бүртгүүлэх</Link>
+                                        <Link href="https://www.digitax.mn/app/#/signup" passHref>
+                                            Бүртгүүлэх
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
