@@ -14,7 +14,7 @@ const FooterV1 = () => {
                       <p>Бидэнтэй холбогдох</p>
                       <h4>
                         <a href="mailto:info@validthemes.com">
-                          taxtime8899@gmail.com
+                          digitax2025@gmail.com
                         </a>
                       </h4>
                     </li>
