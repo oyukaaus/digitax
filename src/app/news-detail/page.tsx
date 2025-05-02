@@ -6,7 +6,7 @@ import BodyClassV2 from '@/components/classes/BodyClassV2';
 import LayoutV1 from '@/components/layouts/LayoutV1';
 
 export const metadata = {
-    title: "Gixus - Business Consulting - Blog Single With Sidebar"
+    title: "Digitax - Санхүү татварын тайлан бэлдэх үйлчилгээ"
 };
 
 interface Params {

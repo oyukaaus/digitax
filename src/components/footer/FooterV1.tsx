@@ -76,7 +76,7 @@ const FooterV1 = () => {
                   </a>
                 </p>
               </div>
-              <div className="col-lg-6 text-end">
+              {/* <div className="col-lg-6 text-end">
                 <ul className="link-list">
                   <li>
                     <Link href="#" scroll={false}>
@@ -92,7 +92,7 @@ const FooterV1 = () => {
                     <Link href="/contact-us">Тусламж</Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

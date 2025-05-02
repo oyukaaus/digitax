@@ -25,7 +25,7 @@ const Home = () => {
         <ProjectV1 />
         {/* <FactV1 /> */}
         <div className="mb-4"></div>
-        <PriceV1 />
+        {/* <PriceV1 /> */}
       </LayoutV1>
     </>
   );

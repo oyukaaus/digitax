@@ -9,16 +9,7 @@
     "image": "5.jpg",
     "link": "/about-us"
   },
-  {
-    "id": 2,
-    "accordionId": "headingTwo",
-    "title": "",
-    "subtitle": "Мэдээ мэдээлэл",
-    "collapseId": "collapseTwo",
-    "expanded": false,
-    "image": "6.jpeg",
-    "link": "/news"
-  },
+
   {
     "id": 3,
     "accordionId": "headingThree",

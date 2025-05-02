@@ -14,7 +14,7 @@ const ContactUsV1 = () => {
           <div className="row align-center">
             <div className="contact-stye-one col-lg-5 mb-md-50 mb-xs-40">
               <div className="contact-style-one-info">
-                <h4 className="sub-title">Асуулт байна уу?</h4>
+                {/* <h4 className="sub-title">Асуулт байна уу?</h4> */}
                 <h2>Холбоо барих</h2>
                 <p>Бидэнтэй холбогдох</p>
                 <ul>
@@ -26,7 +26,7 @@ const ContactUsV1 = () => {
                       <div className="content">
                         <h5 className="title">Утас</h5>
                         <a href="tel:+4733378901">
-                          99015440, 99097756, 99160604
+                        77114555
                         </a>
                       </div>
                     </li>
@@ -43,8 +43,7 @@ const ContactUsV1 = () => {
                       <div className="info">
                         <h5 className="title">Хаяг</h5>
                         <p>
-                          Сүхбаатар дүүрэг 6 дугаар хороо, <br /> Монреимпекс
-                          ХХК-ийн байр, 208 тоот
+                        Чингэлтэй дүүрэг, 1-р хороо, Бага тойруу 17  <br /> Жи Жи Тауэр, 2 давхар, 202 тоот
                         </p>
                       </div>
                     </li>

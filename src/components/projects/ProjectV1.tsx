@@ -44,7 +44,7 @@ const ProjectV1 = () => {
                     амжилтыг хамгийн түрүүнд тавьдаг.
                   </li>
                 </ul>
-                <Link className="btn-style-two" href="/project">
+                <Link className="btn-style-two" href="/about-us">
                   <i className="fas fa-arrow-right" />
                 </Link>
               </div>
