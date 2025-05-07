@@ -25,7 +25,7 @@ const BannerV1 = () => {
                       className="animate__animated animate__fadeInUp"
                       duration="400ms"
                     >
-                      <h4>Зөвлөх үйлчилгээ</h4>
+                      <h4 style={{ color: "#246bfd" }}>Digitax</h4>
                     </Animate>
 
                     <Animate
@@ -66,7 +66,7 @@ const BannerV1 = () => {
                   <div className="thumb relative">
                     <Animate className="animate__animated animate__fadeInUp">
                       <Image
-                        src="/assets/img/thumb/1.png"
+                        src="/assets/img/thumb/11.png"
                         alt="Thumb"
                         width={1000}
                         height={1142}
@@ -84,7 +84,7 @@ const BannerV1 = () => {
                           </div>
                           <div className="info">
                             <p>
-                              <strong>Цаг хэмнэлт</strong>
+                              <strong>Үр ашигтай байдал</strong>
                             </p>
                           </div>
                         </div>
@@ -99,7 +99,7 @@ const BannerV1 = () => {
                           </div>
                           <div className="info">
                             <p>
-                              <strong>Эрсдлээс сэргийлнэ</strong>
+                              <strong>Хялбар хэрэглээ</strong>
                             </p>
                           </div>
                         </div>
@@ -115,7 +115,7 @@ const BannerV1 = () => {
                           </div>
                           <div className="info">
                             <p>
-                              <strong>Бизнесийн өсөлтийг дэмжинэ</strong>
+                              <strong>Бизнесийн өсөлт</strong>
                             </p>
                           </div>
                         </div>

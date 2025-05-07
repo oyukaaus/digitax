@@ -1,26 +1,32 @@
 "use client";
-import Link from 'next/link';
+import Link from "next/link";
 
 interface DataType {
-    toggleSubMenu?: (event: React.MouseEvent<HTMLAnchorElement>) => void;
-    navbarPlacement?: string;
+  toggleSubMenu?: (event: React.MouseEvent<HTMLAnchorElement>) => void;
+  navbarPlacement?: string;
 }
 
 const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
-    return (
-        <>
-            <ul className={`nav navbar-nav ${navbarPlacement}`} data-in="fadeInDown" data-out="fadeOutUp">
-                <li className="dropdown">
-                    <Link href="/"  onClick={toggleSubMenu}>Нүүр</Link>
-                    {/* <ul className="dropdown-menu">
+  return (
+    <>
+      <ul
+        className={`nav navbar-nav ${navbarPlacement}`}
+        data-in="fadeInDown"
+        data-out="fadeOutUp"
+      >
+        <li className="dropdown">
+          <Link href="/" onClick={toggleSubMenu}>
+            Нүүр
+          </Link>
+          {/* <ul className="dropdown-menu">
                         <li><Link href="/">Business Consultant</Link></li>
                         <li><Link href="/home-2">It Solutions</Link></li>
                         <li><Link href="/home-3">Creative Agency</Link></li>
                         <li><Link href="/home-4">Transport &amp; Logistics</Link></li>
                         <li><Link href="/home-5">Financial Advisor</Link></li>
                     </ul> */}
-                </li>
-                {/* <li className="dropdown">
+        </li>
+        {/* <li className="dropdown">
                     <Link href="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Pages</Link>
                     <ul className="dropdown-menu">
                         <li><Link href="/about-us">About Us</Link></li>
@@ -43,17 +49,17 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
                         <li><Link href="/project-details/1">Project Details</Link></li>
                     </ul>
                 </li> */}
-                <li className="dropdown">
-                    <Link href="/about-us" >Бидний тухай</Link>
-                    {/* <ul className="dropdown-menu">
+        <li className="dropdown">
+          <Link href="/about-us">Бидний тухай</Link>
+          {/* <ul className="dropdown-menu">
                         <li><Link href="/services">Үйлчилгээ Нэг</Link></li>
                         <li><Link href="/services-2">Үйлчилгээ Хоёр</Link></li>
                         <li><Link href="/services-3">Үйлчилгээ Гурав</Link></li>
                     </ul> */}
-                </li>
-                <li className="dropdown">
-                    <Link href="/faq" >Түгээмэл асуултууд</Link>
-                    {/* <ul className="dropdown-menu">
+        </li>
+        <li className="dropdown">
+          {/* <Link href="/faq" >Түгээмэл асуултууд</Link> */}
+          {/* <ul className="dropdown-menu">
                         <li><Link href="/blog-standard">Blog Standard</Link></li>
                         <li><Link href="/blog-with-sidebar">Blog With Sidebar</Link></li>
                         <li><Link href="/blog-2-column">Blog Grid Two Column</Link></li>
@@ -61,11 +67,13 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
                         <li><Link href="/blog-single/1">Blog Single</Link></li>
                         <li><Link href="/blog-single-with-sidebar/1">Blog Single With Sidebar</Link></li>
                     </ul> */}
-                </li>
-                <li><Link href="/contact-us">Холбоо барих</Link></li>
-            </ul>
-        </>
-    );
+        </li>
+        <li>
+          <Link href="/contact-us">Холбоо барих</Link>
+        </li>
+      </ul>
+    </>
+  );
 };
 
 export default MainMenu;

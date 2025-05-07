@@ -38,11 +38,11 @@ const SingleServicesV1 = ({ service }: { service: DataType }) => {
         <p>{text3}</p>
         <p>{text4}</p>
       </div>
-      <div className="button">
+      {/* <div className="button">
         <Link className="btn" href={`/services-details/${id}`}>
           <i className="fas fa-arrow-right" />
         </Link>
-      </div>
+      </div> */}
       <span>{counts}</span>
     </>
   );
