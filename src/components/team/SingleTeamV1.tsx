@@ -17,7 +17,7 @@ const SingleTeamV1 = ({ team }: { team: DataType }) => {
             <div className="team-style-one-item">
                 <div className="thumb">
                     <Image src={`/assets/img/team/${img}`} width={800} height={900} alt="Image Not Found" />
-                    <div className="social-overlay">
+                    {/* <div className="social-overlay">
                         <ul>
                             <li>
                                 <Link href="https://www.linkedin.com/" target="_blank">
@@ -38,7 +38,7 @@ const SingleTeamV1 = ({ team }: { team: DataType }) => {
                         <div className="icon">
                             <i className="fas fa-plus" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="info">
                     <span>{title}</span>

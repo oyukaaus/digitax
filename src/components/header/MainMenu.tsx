@@ -11,7 +11,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
         <>
             <ul className={`nav navbar-nav ${navbarPlacement}`} data-in="fadeInDown" data-out="fadeOutUp">
                 <li className="dropdown">
-                    <Link href="#"  onClick={toggleSubMenu}>Нүүр</Link>
+                    <Link href="/"  onClick={toggleSubMenu}>Нүүр</Link>
                     {/* <ul className="dropdown-menu">
                         <li><Link href="/">Business Consultant</Link></li>
                         <li><Link href="/home-2">It Solutions</Link></li>
@@ -44,7 +44,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
                     </ul>
                 </li> */}
                 <li className="dropdown">
-                    <Link href="/services-2" >Үйлчилгээ</Link>
+                    <Link href="/about-us" >Бидний тухай</Link>
                     {/* <ul className="dropdown-menu">
                         <li><Link href="/services">Үйлчилгээ Нэг</Link></li>
                         <li><Link href="/services-2">Үйлчилгээ Хоёр</Link></li>
@@ -52,7 +52,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
                     </ul> */}
                 </li>
                 <li className="dropdown">
-                    <Link href="/blog-standard" >Мэдээ мэдээлэл</Link>
+                    <Link href="/faq" >Түгээмэл асуултууд</Link>
                     {/* <ul className="dropdown-menu">
                         <li><Link href="/blog-standard">Blog Standard</Link></li>
                         <li><Link href="/blog-with-sidebar">Blog With Sidebar</Link></li>

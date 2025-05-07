@@ -4,6 +4,7 @@ import logo from "@/assets/img/logo.png";
 import Link from 'next/link';
 import useStickyMenu from '@/hooks/useStickyMenu';
 import useSidebarMenu from '@/hooks/useSidebarMenu';
+import MainMenu from './MainMenu';
 
 const HeaderV1 = () => {
 
@@ -20,7 +21,7 @@ const HeaderV1 = () => {
                                 <i className="fa fa-bars" />
                             </button>
                             <Link className="navbar-brand" href="/">
-                                <Image src={logo} className="logo" alt="Logo" />
+                                <Image src={logo} className="logo p-3" alt="Logo" />
                             </Link>
                         </div>
                         <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
@@ -28,7 +29,7 @@ const HeaderV1 = () => {
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                                 <i className="fa fa-times" />
                             </button>
-                            {/* <MainMenu navbarPlacement="navbar-center" toggleSubMenu={toggleSubMenu} /> */}
+                            <MainMenu navbarPlacement="navbar-center"  />
                         </div>
                         <div className="attr-right">
                             <div className="attr-nav">
