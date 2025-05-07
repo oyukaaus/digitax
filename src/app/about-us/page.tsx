@@ -1,7 +1,5 @@
 import AboutV2 from "@/components/about/AboutV2";
 import TeamV1 from "@/components/team/TeamV1";
-import BlogData from "@/assets/jsonData/blog/BlogData.json";
-import BlogSingleContent from "@/components/blog/BlogSingleContent";
 import LayoutV1 from "@/components/layouts/LayoutV1";
 
 export const metadata = {
@@ -9,7 +7,6 @@ export const metadata = {
 };
 
 const AboutUsPage = () => {
-  const data = BlogData[0];
   return (
     <>
       <LayoutV1>

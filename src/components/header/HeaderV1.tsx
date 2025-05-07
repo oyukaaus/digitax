@@ -20,7 +20,7 @@ const HeaderV1 = () => {
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={openMenu}>
                                 <i className="fa fa-bars" />
                             </button>
-                            <Link className="navbar-brand" href="/">
+                            <Link className="navbar-brand" href="/association">
                                 <Image src={logo} className="logo p-3" alt="Logo" />
                             </Link>
                         </div>

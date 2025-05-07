@@ -1,19 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import SocialShare from '../utilities/SocialShare';
-import BlogPostComments from './BlogPostComments';
-import BlogCommentForm from '../form/BlogCommentForm';
-import SearchWidget from '../widgets/SearchWidget';
-import RecentPostsWidget from '../widgets/RecentPostsWidget';
-import CategoryWidget from '../widgets/CategoryWidget';
-import GalleryWidget from '../widgets/GalleryWidget';
-import ArchiveWidget from '../widgets/ArchiveWidget';
-import FollowWidget from '../widgets/FollowWidget';
-import TagsWidget from '../widgets/TagsWidget';
-import team1Thumb from '@/assets/img/team/v1.jpg'
-import BlogData from '@/assets/jsonData/blog/BlogData.json';
-import handleSmoothScroll from '../utilities/handleSmoothScroll';
-
 interface DataType {
     id: number;
     date?: string;
@@ -26,22 +10,7 @@ interface BlogSingleProps {
     totalBlogs?: number;
 }
 
-const BlogSingleWithSidebarContent = ({ blogInfo, totalBlogs }: BlogSingleProps) => {
-    const { id, date, dateIcon, thumbFull } = blogInfo || {};
-
-    // Blogs Navigation 
-    const currentId = id ? parseInt(id.toString(), 10) : 1;
-
-    // Calculate the previous and next IDs dynamically
-    const previousId = currentId === 1 ? totalBlogs : currentId - 1;
-    const nextId = currentId === totalBlogs ? 1 : currentId + 1;
-
-    // Get the previous and next project titles
-    const previousBlog = BlogData.find((blog) => blog.id === previousId);
-    const nextBlog = BlogData.find((blog) => blog.id === nextId);
-
-    // Get the first two words of the project title
-    const getFirstTwoWords = (text?: string) => text?.split(' ').slice(0, 2).join(' ') || "No Title";
+const BlogSingleWithSidebarContent = ({   }: BlogSingleProps) => {
 
     return (
         <>

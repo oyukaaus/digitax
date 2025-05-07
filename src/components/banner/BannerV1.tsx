@@ -74,21 +74,7 @@ const BannerV1 = () => {
                     </Animate>
 
                     <div className="strategy absolute top-0 left-0 flex flex-col gap-6 p-6">
-                      <Animate
-                        className="animate__animated animate__fadeInRight"
-                        delay="700ms"
-                      >
-                        <div className="item flex items-center gap-3">
-                          <div className="icon">
-                            <i className="fas fa-rocket" />
-                          </div>
-                          <div className="info">
-                            <p>
-                              <strong>Үр ашигтай байдал</strong>
-                            </p>
-                          </div>
-                        </div>
-                      </Animate>
+
                       <Animate
                         className="animate__animated animate__fadeInUp "
                         delay="500ms"
@@ -120,7 +106,53 @@ const BannerV1 = () => {
                           </div>
                         </div>
                       </Animate>
+                      <div >
+                        {/* <Animate
+                        // className="animate__animated animate__fadeInLeft"
+                        delay="700ms"
+                      > */}
+                        <Animate
+                          className="animate__animated animate__fadeInLeft"
+                          delay="700ms"
+                        >
+                          <div style={{ backgroundColor: "white", display: "flex", flexDirection: "row", justifyContent: "center", width: 400, alignItems: "center", height: 100, marginLeft: -300, borderRadius: 10 }}>
+                            <div
+                              className="icon"
+                              style={{
+                                height: "auto",
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <i
+                                className="fas fa-rocket"
+                                style={{
+                                  height: 60,
+                                  width: 60,
+                                  backgroundColor: "#246bfd",
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center",
+                                  borderRadius: 10,
+                                  color: "white",
+                                  fontSize: 30,
+                                }}
+                              />
+                            </div>
+
+                            <div className="">
+                              <p style={{ fontSize: 30, color: "#04000b", display: "block", marginBottom: 3, marginLeft: 20 }}>
+                                <strong>Үр ашигтай байдал</strong>
+                              </p>
+                            </div>
+                          </div>
+                          {/* </div>
+                        </div> */}
+                        </Animate>
+                      </div>
                     </div>
+
                   </div>
                 </div>
               </div>

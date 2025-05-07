@@ -1,18 +1,14 @@
 [
     {
         "id": 1,
-        "image": "11.png"
+   "name": "TAXTIME TMZ",
+     "url":"https://taxtime.mn",
+     "image":"11.png"
     },
     {
         "id": 2,
-        "image": "22.png"
-    },
-    {
-        "id": 3,
-        "image": "55.png"
-    },
-    {
-        "id": 4,
-        "image": "66.png"
+     "name": "Digital Finax Partner",
+     "url":"https://taxservice.mn/",
+     "image":"finax.png"
     }
 ]

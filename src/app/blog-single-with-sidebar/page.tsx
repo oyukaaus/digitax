@@ -16,7 +16,7 @@ interface PageProps {
     params: Promise<Params>;
 }
 
-const BlogSingleWithSidebar = async ({ params }: PageProps) => {
+const BlogSingleWithSidebar = async ({  }: PageProps) => {
     const data = BlogData[0]
     return (
         <>

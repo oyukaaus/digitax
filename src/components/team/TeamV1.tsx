@@ -31,6 +31,11 @@ const TeamV1 = () => {
                 </div>
               ))}
             </div>
+            <div className="row">
+                <div className="col-xl-3 col-lg-4 mb-50" >
+                  <SingleTeamV1 team={TeamData[8]} />
+                </div>
+            </div>
             {/* <div className="row">
               <div className="col-xl-9 offset-xl-3 col-lg-12">
                 <div className="team-grid">
